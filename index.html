@@ -13,7 +13,19 @@
 					
 						<h1  style="margin-bottom:20px;font-size:60px;font-family:verdana;">Willkommen zur Stations&uumlbersicht</h1>
 					
-						
+			<form name="suche">
+    <select name="angebot" onChange="lade()">
+       <script language=javascript>
+       document.write("Bitte wählen!");
+       for(i=0;i<=begriffe.length-1;i++)
+          {
+          wort=begriffe&#91;i&#93;.slice(0,begriffe&#91;i&#93;.indexOf(" "));
+          wohin=begriffe&#91;i&#93;.slice(begriffe&#91;i&#93;.indexOf(" ")+1,begriffe&#91;i&#93;.length);
+          document.write("\<option value=\"" + wohin + "\"\>" + wort);
+          }
+       </script>
+    </select>
+ </form>			
 
 <div class="dropdown">
   <button color: white; class="dropbtn1"style="margin-right:20px;font-size:40px;font-family:verdana;color:#015193;">Haus A</button>
