@@ -6,4 +6,3 @@ Index page for the pick-up and delivery service in the Klinikum
 </div>  
 
 ----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
