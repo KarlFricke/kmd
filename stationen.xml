@@ -4,13 +4,14 @@
 
 <Häuser>
     <Haus_A>
+     Haus=A
         <A2.1>
-            <Haus>A</Haus>
+            <Haus>Haus</Haus>
             <Etage>2</Etage>
             <Station>1</Station>
         </A2.1>
 
-        
+
     </Haus_A>
 
     <Haus_B>
