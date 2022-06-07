@@ -4,29 +4,32 @@
 
 <Häuser>
     <Haus_A>
-     Haus=A
-        <A2.1>
-            <Haus>Haus</Haus>
+    $Haus=A
+
+    <A2.1>
+            <Haus>$Haus</Haus>
             <Etage>2</Etage>
             <Station>1</Station>
-        </A2.1>
-
-
+    </A2.1>
     </Haus_A>
 
     <Haus_B>
+    $Haus=B
+
      <B0.1>
-            <Haus>B</Haus>
+            <Haus>$Haus</Haus>
             <Etage>0</Etage>
             <Station>1</Station>
-     </B0.1>
+    </B0.1>
     </Haus_B>
 
     <Haus_D>
-     <D0.1>
-            <Haus>D</Haus>
+    $Haus=D
+    <D0.1>
+            <Haus>$Haus</Haus>
             <Etage>0</Etage>
             <Station>1</Station>
-     </D0.1>
+    </D0.1>
     </Haus_D>
+    
 </Häuser>
