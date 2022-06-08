@@ -3,9 +3,12 @@
 <head>
 <script>
 	function weiterleitung() {
-		window.location.assign("https://google.com")
-				       }
-	</script>
+		let eingabe = document.getElementById("suchleiste").value;
+		if (eingabe == "A2.1") {
+		window.location.assign("https://google.com");
+		}
+	}
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stations&uumlbersicht</title>
 <link rel="stylesheet" href="style.css">
@@ -18,7 +21,7 @@
 					
 						<h1  style="margin-bottom:20px;font-size:60px;font-family:verdana;">Willkommen zur Stations&uumlbersicht</h1>
 					<center>
-	<input style="margin-bottom:20px" onclick="weiterleitung()">
+	<input id=suchleiste style="margin-bottom:20px" onclick="weiterleitung()">
 
 						
 		
